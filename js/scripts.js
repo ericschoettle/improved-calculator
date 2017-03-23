@@ -26,7 +26,6 @@ $(document).ready(function() {
     event.preventDefault();
     var string = $("#input1").val()
 
-    var regexNumber = /[/d]*/
     var regexOperator = /[+=/*^]/
 
     var numbers = string.split(regexOperator)
